@@ -39,7 +39,7 @@ Hosted by Mend.io. No setup required. Community plan available (Free)
 Install and run your own Renovate server. Access internal packages.
 
 * [Mend Renovate Community Edition](https://github.com/mend/renovate-ce-ee/tree/main/docs) (Free)
-* [Mend Renovate Enterprise Edition](http://link-to-enterprise-webpage) (Paid plan)
+* [Mend Renovate Enterprise Edition](https://www.mend.io/mend-renovate/) (Paid plan)
 
 ## Other ways to run Renovate
 If you can’t use a pre-built job scheduling system, or want to build your own, the following options are available:
@@ -50,11 +50,11 @@ Mend provides a _**GitHub Action**_ and _**GitLab Runner**_ to make it easier to
 * GitHub Action: [renovatebot/github-action](https://github.com/renovatebot/github-action).
 * GitLab Runner: [Renovate Runner project](https://gitlab.com/renovate-bot/renovate-runner/)
 * AzureDevOps action: [Renovate Me extension](https://marketplace.visualstudio.com/items?itemName=jyc.vsts-extensions-renovate-me)
-_Note: This extension is created and maintained personally by a Renovate developer/user so support requests relating to the extension itself cannot be answered directly in the main Renovate repository._
+<br>Note: This extension is created and maintained personally by a Renovate developer/user so support requests relating to the extension itself cannot be answered directly in the main Renovate repository._
 * Custom pipeline: You can create a custom pipeline with a **yml** definition that triggers **npx renovate**. [More details on how to configure the pipeline](https://docs.renovatebot.com/modules/platform/azure/).
 
 ### Run Renovate CLI
-There are several ways to run the Renovate CLI directly. See docs: [Running Renovate](https://docs.renovatebot.com/getting-started/running/) for all options.
+There are several ways to run the Renovate CLI directly. <br>See docs: [Running Renovate](https://docs.renovatebot.com/getting-started/running/) for all options.
 **Targets: GitHub, GitLab, Bitbucket, AzureDevOps, AWS Code Commit, Gitea, Forgejo, Gerrit (experimental)**
 
 **Run Renovate as an npm command**
@@ -72,7 +72,7 @@ docker run renovate/renovate -r myorg/myrepo
 
 ### More about Renovate
 - Renovate basics
-  - [Why use Renovate](https://docs.renovatebot.com/getting-started/private-packages/)
+  - [Why use Renovate](https://docs.renovatebot.com/#why-use-renovate)
   - [What does it do? / How does it work?](https://docs.renovatebot.com/key-concepts/how-renovate-works/)
   - [Who is using it?](https://docs.renovatebot.com/#who-uses-renovate)
 - Supported platforms and languages
