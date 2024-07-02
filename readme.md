@@ -1,3 +1,5 @@
+![Renovate banner](images/banner.png)
+
 # What is Renovate?
 
 Renovate is a dependency update tool. It helps to update dependencies in your code to the latest version.
