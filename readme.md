@@ -49,24 +49,13 @@ Mend provides a _**GitHub Action**_ and _**GitLab Runner**_ to make it easier to
 
 * GitHub Action: [renovatebot/github-action](https://github.com/renovatebot/github-action).
 * GitLab Runner: [Renovate Runner project](https://gitlab.com/renovate-bot/renovate-runner/)
-* AzureDevOps action: [Renovate Me extension](https://marketplace.visualstudio.com/items?itemName=jyc.vsts-extensions-renovate-me)
-<br>Note: This extension is created and maintained personally by a Renovate developer/user so support requests relating to the extension itself cannot be answered directly in the main Renovate repository._
+* AzureDevOps action: [Renovate Me extension](https://marketplace.visualstudio.com/items?itemName=jyc.vsts-extensions-renovate-me)<br>
+_Note: This extension is created and maintained personally by a Renovate developer/user so support requests relating to the extension itself cannot be answered directly in the main Renovate repository._
 * Custom pipeline: You can create a custom pipeline with a **yml** definition that triggers **npx renovate**. [More details on how to configure the pipeline](https://docs.renovatebot.com/modules/platform/azure/).
 
 ### Run Renovate CLI
-There are several ways to run the Renovate CLI directly. <br>See docs: [Running Renovate](https://docs.renovatebot.com/getting-started/running/) for all options.
+There are several ways to run the Renovate CLI directly. See docs: [Running Renovate](https://docs.renovatebot.com/getting-started/running/) for all options.<br>
 **Targets: GitHub, GitLab, Bitbucket, AzureDevOps, AWS Code Commit, Gitea, Forgejo, Gerrit (experimental)**
-
-**Run Renovate as an npm command**
-```bash
-npm install -g renovate
-npx renovate -r myorg/myrepo
-```
-
-**Run Renovate as a Docker command**
-```bash
-docker run renovate/renovate -r myorg/myrepo
-```
 
 # Docs
 
@@ -80,7 +69,6 @@ docker run renovate/renovate -r myorg/myrepo
   - [Supported languages / package managers](https://docs.renovatebot.com/modules/manager/)
 - Advanced renovate usage
   - [Accessing private packages](https://docs.renovatebot.com/getting-started/private-packages/)
-  - Monorepo support
   - [Merge Confidence data](https://docs.renovatebot.com/merge-confidence/)
 
 ### Renovate Docs
