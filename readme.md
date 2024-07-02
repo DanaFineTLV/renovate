@@ -1,4 +1,4 @@
-![Renovate banner](images/banner.png)
+![Renovate banner](images/cli_banner.png)
 
 # What is Renovate?
 
