@@ -2,24 +2,26 @@
 
 # What is Renovate?
 
-Renovate is a dependency update tool. It helps to update dependencies in your code to the latest version.
-When Renovate runs on your repo, it looks for all known references to external dependencies and, if there are newer versions available, Renovate will create a pull request to update your code directly.
+Renovate is an automated dependency update tool.
+It helps to update dependencies in your code without needing to do it manually.
+When Renovate runs on your repo, it looks for references to dependencies (both public and private) and, if there are newer versions available, Renovate can create pull requests to update your versions automatically.
 
-**Features**
+## Features
+
 - Delivers updates directly to your code base
   - Relevant package files are discovered automatically
   - Pull Requests automatically generated in your repo
-- Provides useful information to help you decide which updates to accept (age, adoption, passing, merge confidence)
-- Highly configurable - Lots of ways to configure it for your custom needs
+- Provides useful information to help you decide which updates to accept (age, adoption, pass rates, merge confidence)
+- Highly configurable and flexible to fit in with your needs and repository standards
 - Largest collection of languages and platforms (listed below)
 - Connects with private repositories and package registries
 
 **Languages**<br>
-Renovate can provide updates for nearly all languages, platforms and registries including: npm, Java, Python, .NET, Scala, Ruby, Go, Docker-hub and more.
+Renovate can provide updates for nearly all languages, platforms and registries including: npm, Java, Python, .NET, Scala, Ruby, Go, Docker and more.
 Supports over 90 different package managers.
 
 **Platforms**<br>
-Renovate updates code repositories on the following platforms: GitHub, GitLab, Bitbucket, AzureDevOps, AWS Code Commit, Gitea, Forgejo, Gerrit (experimental)
+Renovate updates code repositories on the following platforms: GitHub, GitLab, Bitbucket, Azure DevOps, AWS Code Commit, Gitea, Forgejo, Gerrit (experimental)
 
 #  Ways to Run Renovate
 
@@ -29,7 +31,7 @@ Mend provides pre-built systems for automatically running Renovate on your repos
 
 ## Mend Renovate App (Cloud)
 
-**Targets: GitHub Cloud, Bitbucket Cloud**<br>
+**Supports: GitHub.com, Bitbucket Cloud**<br>
 Hosted by Mend.io. No setup required. Community plan available (Free)
 
 * GitHub Cloud: Install the [Renovate App](https://github.com/apps/renovate) on your GitHub org, then select the repos to enable
@@ -37,7 +39,7 @@ Hosted by Mend.io. No setup required. Community plan available (Free)
 
 ## Mend Renovate Server (Self-hosted)
 
-**Targets: GitHub, GitLab, Bitbucket**<br>
+**Supports: GitHub, GitLab, Bitbucket Data Center**<br>
 Install and run your own Renovate server. Access internal packages.
 
 * [Mend Renovate Community Edition](https://github.com/mend/renovate-ce-ee/tree/main/docs) (Free)
@@ -57,7 +59,7 @@ _Note: This extension is created and maintained personally by a Renovate develop
 
 ### Run Renovate CLI
 There are several ways to run the Renovate CLI directly. See docs: [Running Renovate](https://docs.renovatebot.com/getting-started/running/) for all options.<br>
-**Targets: GitHub, GitLab, Bitbucket, AzureDevOps, AWS Code Commit, Gitea, Forgejo, Gerrit (experimental)**
+**Targets: all platforms**
 
 # Docs
 
