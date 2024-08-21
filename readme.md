@@ -38,7 +38,7 @@ Hosted by Mend.io. No setup is required. Community plan available (Free)
 * GitHub Cloud: Install the [Renovate App](https://github.com/apps/renovate) on your GitHub org, then select the repos to enable
 * Bitbucket Cloud: Add the [Mend App](https://marketplace.atlassian.com/apps/1232072/mend) to your Workspace, the add the Mend Renovate user to the projects you want to enable
 
-## Mend Renovate Server (Self-hosted)
+## Mend Renovate Community (Self-hosted)
 
 **Supports: GitHub, GitLab, Bitbucket Data Center**
 
