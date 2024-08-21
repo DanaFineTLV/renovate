@@ -1,6 +1,6 @@
 ![Renovate banner](images/cli_banner.png)
 
-# What is Renovate?
+# What is Mend Renovate?
 
 Renovate is an automated dependency update tool.
 It helps to update dependencies in your code without needing to do it manually.
@@ -35,7 +35,7 @@ The most effective way to run Renovate is to use an automated job scheduling sys
 
 Hosted by Mend.io. No setup is required. Community plan available (Free)
 
-* GitHub Cloud: Install the [Renovate App](https://github.com/apps/renovate) on your GitHub org, then select the repos to enable
+* GitHub Cloud: Install the [Renovate Cloud-Hosted App](https://github.com/apps/renovate) on your GitHub org, then select the repos to enable
 * Bitbucket Cloud: Add the [Mend App](https://marketplace.atlassian.com/apps/1232072/mend) to your Workspace, the add the Mend Renovate user to the projects you want to enable
 
 ## Mend Renovate Community (Self-hosted)
