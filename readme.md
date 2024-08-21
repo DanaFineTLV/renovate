@@ -29,7 +29,7 @@ Renovate updates code repositories on the following platforms: GitHub, GitLab, B
 
 The most effective way to run Renovate is to use an automated job scheduling system that regularly runs Renovate on all enabled repositories and responds with priority to user activity. Mend offers cloud-hosted and self-hosted solutions. See the options below.
 
-## Mend Renovate App (Cloud)
+## Mend Renovate Community (Cloud-Hosted)
 
 **Supports: GitHub.com, Bitbucket Cloud**
 
@@ -44,8 +44,8 @@ Hosted by Mend.io. No setup is required. Community plan available (Free)
 
 Install and run your own Renovate server. Access internal packages.
 
-* [Mend Renovate Community Edition](https://github.com/mend/renovate-ce-ee/tree/main/docs) (Free)
-* [Mend Renovate Enterprise Edition](https://www.mend.io/mend-renovate/) (Paid plan)
+* [Mend Renovate Community Self-Hosted](https://github.com/mend/renovate-ce-ee/tree/main/docs) (Free)
+* [Mend Renovate Enterprise](https://www.mend.io/mend-renovate/) (Paid plan)
 
 ## Other ways to run Renovate
 
@@ -84,7 +84,7 @@ There are several ways to run the Renovate CLI directly. See docs: [Running Reno
 ### Renovate Docs
 
 - [Renovate Configuration](https://docs.renovatebot.com/configuration-options/)
-- [Mend Renovate Server Docs](https://github.com/mend/renovate-ce-ee/tree/main/docs)
+- [Mend Renovate Self-Hosted Docs](https://github.com/mend/renovate-ce-ee/tree/main/docs)
 
 ### Comparisons
 
