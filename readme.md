@@ -1,6 +1,6 @@
 ![Renovate banner](images/cli_banner.png)
 
-# What is Mend Renovate?
+# What is Mend Renovate CLI?
 
 Renovate is an automated dependency update tool.
 It helps to update dependencies in your code without needing to do it manually.
