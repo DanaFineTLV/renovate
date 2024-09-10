@@ -1,4 +1,13 @@
-![Renovate banner](images/cli_banner.png)
+![Renovate banner](https://app.renovatebot.com/images/renovate_660_220.jpg)
+
+# Renovate
+
+[![License: AGPL-3.0-only](https://img.shields.io/badge/license-%20%09AGPL--3.0--only-blue.svg)](https://raw.githubusercontent.com/renovatebot/renovate/main/license)
+[![codecov](https://codecov.io/gh/renovatebot/renovate/branch/main/graph/badge.svg)](https://codecov.io/gh/renovatebot/renovate)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+[![Build status](https://github.com/renovatebot/renovate/actions/workflows/build.yml/badge.svg)](https://github.com/renovatebot/renovate/actions/workflows/build.yml)
+![Docker Pulls](https://img.shields.io/docker/pulls/renovate/renovate?color=turquoise)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/renovatebot/renovate/badge)](https://securityscorecards.dev/viewer/?uri=github.com/renovatebot/renovate)
 
 # What is Mend Renovate CLI?
 
