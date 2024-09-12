@@ -23,18 +23,19 @@ When Renovate runs on your repo, it looks for references to dependencies (both p
 - Largest collection of languages and platforms (listed below)
 - Connects with private repositories and package registries
 
-**Languages**
+### Languages
 
 Renovate can provide updates for nearly all languages, platforms, and registries including: npm, Java, Python, .NET, Scala, Ruby, Go, Docker and more.
 Supports over 90 different package managers.
 
-**Platforms**
+### Platforms
 
 Renovate updates code repositories on the following platforms: GitHub, GitLab, Bitbucket, Azure DevOps, AWS Code Commit, Gitea, Forgejo, Gerrit (experimental)
 
 #  Ways to Run Renovate
 
-The most effective way to run Renovate is to use an automated job scheduling system that regularly runs Renovate on all enabled repositories and responds with priority to user activity. Mend offers cloud-hosted and self-hosted solutions. See the options below.
+The most effective way to run Renovate is to use an automated job scheduling system that regularly runs Renovate on all enabled repositories and responds with priority to user activity.
+Mend offers cloud-hosted and self-hosted solutions. See the options below.
 
 ## Mend Renovate Community (Cloud-Hosted)
 
@@ -70,7 +71,9 @@ _Note: This extension is created and maintained personally by a Renovate develop
 
 ### Run Renovate CLI
 
-There are several ways to run the Renovate CLI directly. See docs: [Running Renovate](https://docs.renovatebot.com/getting-started/running/) for all options.<br>
+There are several ways to run the Renovate CLI directly.
+See docs: [Running Renovate](https://docs.renovatebot.com/getting-started/running/) for all options.
+
 **Targets: all platforms**
 
 # Docs
